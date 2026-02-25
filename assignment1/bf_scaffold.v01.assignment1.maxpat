@@ -13,12 +13,64 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-8",
+                    "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 19.0, 56.0, 250.0, 22.0 ],
-                    "text": "bf.bach.poly.05.polyphony.v02.assignment1"
+                    "patching_rect": [ 19.0, 255.0, 118.0, 22.0 ],
+                    "text": "bf.random.notes.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 19.0, 130.0, 79.0, 22.0 ],
+                    "text": "bf.midi.in.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 19.0, 192.0, 90.0, 22.0 ],
+                    "text": "bf.sound.in.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 131.0, 125.0, 153.0, 47.0 ],
+                    "text": "orange indicates it lives on the disk somewhere or is in the codebase"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-4",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 131.0, 62.0, 150.0, 47.0 ],
+                    "text": "calling a patch in the same folder that we created"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 19.0, 62.0, 97.0, 22.0 ],
+                    "text": "bf.sound.out.v01"
                 }
             },
             {
@@ -195,19 +247,6 @@
             }
         ],
         "lines": [],
-        "parameters": {
-            "obj-8::obj-47": [ "live.tab[4]", "live.tab", 0 ],
-            "obj-8::obj-7": [ "live.gain~[4]", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
         "autosave": 0
     }
 }
